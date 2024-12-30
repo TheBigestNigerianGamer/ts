@@ -1048,3 +1048,33 @@ Data pack `simplyskills` uses outdated version. Please update the configuration 
 [22:22:22] [Server thread/INFO]: Loading config from file...
 [22:22:22] [Server thread/INFO]: Yumalala joined the game
 [22:22:22] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player Yumalala. Claiming: GRAVE / Robbing: INVENTORY
+[22:25:55] [Server thread/INFO]: Locating element minecraft:stronghold took 24 ms
+[22:26:00] [Server thread/INFO]: [Yumalala: Teleported Yumalala to 23120.500000, 77.000000, -4879.500000]
+[22:26:22] [Server thread/INFO]: Yumalala has made the advancement [Eye Spy]
+[22:26:43] [Server thread/INFO]: [Yumalala: Set own game mode to Spectator Mode]
+[22:26:56] [Server thread/INFO]: [Yumalala: Set own game mode to Creative Mode]
+[22:27:13] [Server thread/INFO]: Yumalala has made the advancement [The End?]
+[22:27:15] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[22:27:15] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[22:27:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2707ms or 54 ticks behind
+[22:27:21] [Server thread/INFO]: Villager class_1646['Unemployed'/5, l='ServerLevel[world]', x=46.66, y=74.20, z=1.70] died, message: 'Unemployed was killed'
+[22:27:21] [Server thread/INFO]: Villager class_1646['Leatherworker'/7, l='ServerLevel[world]', x=33.76, y=74.00, z=5.80] died, message: 'Leatherworker was killed'
+[22:27:21] [Server thread/INFO]: Villager class_1646['Leatherworker'/8, l='ServerLevel[world]', x=42.73, y=80.00, z=19.46] died, message: 'Leatherworker was killed'
+[22:27:21] [Server thread/INFO]: Villager class_1646['Cleric'/13, l='ServerLevel[world]', x=33.73, y=74.00, z=4.65] died, message: 'Cleric was killed'
+[22:27:21] [Server thread/INFO]: Villager class_1646['Cartographer'/16, l='ServerLevel[world]', x=31.41, y=73.00, z=3.41] died, message: 'Cartographer was killed'
+[22:27:21] [Server thread/INFO]: Villager class_1646['Unemployed'/21, l='ServerLevel[world]', x=45.93, y=74.18, z=1.70] died, message: 'Unemployed was killed'
+[22:27:21] [Server thread/INFO]: Yumalala was killed
+[22:27:22] [Server thread/INFO]: [Yumalala: Killed 199 entities]
+[22:27:32] [Server thread/INFO]: [Yumalala: Teleported Yumalala to 23120.500000, 72.000000, -4879.500000]
+[22:27:37] [Server thread/INFO]: [Yumalala: Set own game mode to Spectator Mode]
+[22:27:43] [Server thread/INFO]: [Yumalala: Set own game mode to Creative Mode]
+[22:27:46] [Server thread/WARN]: Yumalala moved too quickly! -23045.56313182254,68.57056484309399,4850.454649162084
+[22:27:50] [Server thread/INFO]: Yumalala claimed a grave belonging to Yumalala at 100, 49, 0, minecraft:the_end
+[22:28:08] [Server thread/INFO]: Yumalala has reached the goal [The Next Generation]
+[22:28:56] [Server thread/INFO]: Yumalala has made the advancement [Remote Getaway]
+[22:29:26] [Server thread/INFO]: [Yumalala: Teleported Yumalala to 0.500000, 0.000000, 0.500000]
+[22:29:34] [Server thread/INFO]: [Yumalala: Teleported Yumalala to 0.500000, 50.000000, 0.500000]
+[22:29:53] [Server thread/INFO]: [Yumalala: Summoned new Ender Dragon]
+[22:30:15] [Server thread/INFO]: [Yumalala: Applied effect Strength to Yumalala]
+[22:30:25] [Server thread/INFO]: Yumalala has made the advancement [Free the End]
+[22:33:42] [Server thread/INFO]: Yumalala has made the advancement [Blast Protection Not Included]
