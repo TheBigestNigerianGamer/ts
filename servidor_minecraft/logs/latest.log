@@ -1028,3 +1028,23 @@ Data pack `simplyskills` uses outdated version. Please update the configuration 
 [22:10:34] [Server thread/INFO]: [Yumalala: Set own game mode to Creative Mode]
 [22:11:04] [Server thread/INFO]: Yumalala has reached the goal [Choose your path]
 [22:13:58] [Server thread/INFO]: [Yumalala: The difficulty has been set to Normal]
+[22:14:28] [Server thread/INFO]: Yumalala has made the advancement [Window to another realm]
+[22:14:32] [Server thread/INFO]: Yumalala has made the advancement [Monster Hunter]
+[22:17:11] [Server thread/INFO]: [Yumalala: Teleported Yumalala to 100000.500000, 88.032785, 57.891470]
+[22:17:22] [Worker-Main-51/INFO]: Instantiating Mojang DFU
+[22:17:24] [Server thread/INFO]: Locating element minecraft:village_desert took 3668 ms
+[22:17:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3636ms or 72 ticks behind
+[22:17:28] [Server thread/INFO]: [Yumalala: Teleported Yumalala to 96080.500000, 88.032785, -4543.500000]
+[22:18:14] [Server thread/INFO]: [Yumalala: Applied enchantment Sharpness V to Yumalala's item]
+[22:18:37] [Server thread/INFO]: [Yumalala: Gave 100000 experience points to Yumalala]
+[22:18:44] [Server thread/INFO]: [Yumalala: Set own game mode to Survival Mode]
+[22:18:55] [Server thread/INFO]: [Yumalala: Set own game mode to Creative Mode]
+[22:21:14] [Server thread/INFO]: Yumalala has made the advancement [Acquire Hardware]
+[22:22:22] [Server thread/INFO]: Yumalala lost connection: Disconnected
+[22:22:22] [Server thread/INFO]: Yumalala left the game
+[22:22:22] [Server thread/WARN]: handleDisconnection() called twice
+[22:22:22] [Server thread/INFO]: Yumalala[/[0:0:0:0:0:0:0:1%0]:38580] logged in with entity id 16389 at (96066.83425613111, 66.0, -4551.723101860396)
+[22:22:22] [Server thread/INFO]: Syncing config to Yumalala (e5e1aa61-0148-3718-ade2-317eefd7bf71)
+[22:22:22] [Server thread/INFO]: Loading config from file...
+[22:22:22] [Server thread/INFO]: Yumalala joined the game
+[22:22:22] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player Yumalala. Claiming: GRAVE / Robbing: INVENTORY
