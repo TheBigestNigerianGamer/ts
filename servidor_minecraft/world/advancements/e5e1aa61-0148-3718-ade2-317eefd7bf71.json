@@ -1305,6 +1305,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-12-30 22:35:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:end/kill_dragon": {
     "criteria": {
       "killed_dragon": "2024-12-30 22:30:25 +0000"
@@ -1344,6 +1350,12 @@
   "simplyswords:simplyswords": {
     "criteria": {
       "requirement": "2024-12-30 22:31:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-12-30 22:35:49 +0000"
     },
     "done": true
   },
