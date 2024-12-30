@@ -1,12 +1,12 @@
-[20:07:20] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[20:07:21] [main/WARN]: Warnings were found!
+[21:03:47] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[21:03:48] [main/WARN]: Warnings were found!
  - Mod 'SimplySkills' (simplyskills) 1.7.1+1.20.1 recommends version 1.0.2+1.20.1 or later of paladins, which is missing!
 	 - You should install version 1.0.2+1.20.1 or later of paladins for the optimal experience.
  - Mod 'SimplySkills' (simplyskills) 1.7.1+1.20.1 recommends version 1.4.2+1.20.1 or later of amethyst_core, which is missing!
 	 - You should install version 1.4.2+1.20.1 or later of amethyst_core for the optimal experience.
  - Mod 'Simply Swords' (simplyswords) 1.56.0-1.20.1 recommends version 1.7.2 or later of bettercombat, which is missing!
 	 - You should install version 1.7.2 or later of bettercombat for the optimal experience.
-[20:07:21] [main/INFO]: Loading 150 mods:
+[21:03:48] [main/INFO]: Loading 150 mods:
 	- appleskin 2.5.1+mc1.20
 	- architectury 9.2.14
 	- beautify 1.2.0+1.20.1
@@ -197,275 +197,76 @@
 	        |-- jankson 6.0.0+j1.2.3
 	        |    \-- blue_endless_jankson 1.2.3
 	        \-- libninepatch 1.2.0
-[20:07:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ts/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:07:21] [main/INFO]: Compatibility level set to JAVA_17
-[20:07:21] [main/WARN]: Reference map 'chisels-and-bits-fabric-refmap.json' for chiselsandbits.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:07:21] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:07:21] [main/WARN]: Reference map 'Modern-Dynamics-refmap.json' for moderndynamics.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:07:21] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 63 options available, 0 override(s) found
-[20:07:21] [main/INFO]: Applying Nashorn fix
-[20:07:21] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:07:21] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[20:07:21] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[20:07:21] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[20:07:21] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[20:07:22] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[20:07:22] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[20:07:22] [main/WARN]: Error loading class: io/wispforest/accessories/impl/AccessoriesEventHandler (java.lang.ClassNotFoundException: io/wispforest/accessories/impl/AccessoriesEventHandler)
-[20:07:22] [main/WARN]: @Mixin target io.wispforest.accessories.impl.AccessoriesEventHandler was not found travelersbackpack.mixins.json:AccessoriesEventHandlerMixin from mod travelersbackpack
-[20:07:22] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
-[20:07:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:07:27] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[20:07:27] [main/INFO]: Vanilla bootstrap took 4662 milliseconds
-[20:07:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[20:07:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[20:07:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[20:07:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[20:07:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[20:07:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[20:07:28] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[20:07:28] [main/INFO]: Common init
-[20:07:28] [main/INFO]: Initialized chisels-and-bits for Fabric
-[20:07:28] [main/INFO]: fabric loader environment detected
-[20:07:28] [main/WARN]: Configuration file ./config/CoroUtil/General.toml is not correct. Correcting
-[20:07:28] [main/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:28] [main/WARN]: Incorrect key general.useLoggingLog was corrected from null to its default, true. 
-[20:07:28] [main/WARN]: Incorrect key general.useLoggingDebug was corrected from null to its default, false. 
-[20:07:28] [main/WARN]: Incorrect key general.useLoggingError was corrected from null to its default, true. 
-[20:07:30] [main/WARN]: Configuration file ./config/create-common.toml is not correct. Correcting
-[20:07:30] [main/WARN]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:30] [main/WARN]: Incorrect key worldgen.disableWorldGen was corrected from null to its default, false. 
-[20:07:30] [main/WARN]: Configuration file ./config/create-client.toml is not correct. Correcting
-[20:07:30] [main/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:30] [main/WARN]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
-[20:07:30] [main/WARN]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
-[20:07:30] [main/WARN]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
-[20:07:30] [main/WARN]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
-[20:07:30] [main/WARN]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
-[20:07:30] [main/WARN]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
-[20:07:30] [main/WARN]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
-[20:07:30] [main/WARN]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
-[20:07:30] [main/WARN]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
-[20:07:30] [main/WARN]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
-[20:07:30] [main/WARN]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
-[20:07:30] [main/WARN]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
-[20:07:30] [main/WARN]: Incorrect key client.rotateWhenSeated was corrected from null to its default, true. 
-[20:07:30] [main/WARN]: Incorrect key client.fluidUnitType was corrected from null to its default, MILLIBUCKETS. 
-[20:07:30] [main/WARN]: Incorrect key client.simplifyFluidUnit was corrected from null to its default, true. 
-[20:07:30] [main/WARN]: Incorrect key client.toolboxHotbarOverlayOffset was corrected from null to its default, 0. 
-[20:07:30] [main/WARN]: Incorrect key client.fluidFogSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:30] [main/WARN]: Incorrect key client.fluidFogSettings.honey was corrected from null to its default, 1.0. 
-[20:07:30] [main/WARN]: Incorrect key client.fluidFogSettings.chocolate was corrected from null to its default, 1.0. 
-[20:07:30] [main/WARN]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:30] [main/WARN]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
-[20:07:30] [main/WARN]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
-[20:07:30] [main/WARN]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
-[20:07:30] [main/WARN]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
-[20:07:30] [main/WARN]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
-[20:07:30] [main/WARN]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
-[20:07:30] [main/WARN]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:30] [main/WARN]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
-[20:07:30] [main/WARN]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
-[20:07:30] [main/WARN]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:30] [main/WARN]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
-[20:07:30] [main/WARN]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
-[20:07:30] [main/WARN]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:30] [main/WARN]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
-[20:07:30] [main/WARN]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
-[20:07:30] [main/WARN]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:30] [main/WARN]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
-[20:07:30] [main/WARN]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
-[20:07:30] [main/WARN]: Incorrect key client.trains.showExtendedTrackGraphOnF3 was corrected from null to its default, false. 
-[20:07:30] [main/INFO]: Initializing CreateMoreAdditionsMod
-[20:07:30] [main/INFO]: Initializing ServerSide Packet Registries
-[20:07:30] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[20:07:30] [main/INFO]: [KONKRETE] Successfully initialized!
-[20:07:30] [main/INFO]: [KONKRETE] Server-side libs ready to use!
-[20:07:31] [main/INFO]: Successfully loaded Modern Dynamics!
-[20:07:31] [main/INFO]: Initialized Saecularia-Caudices
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.bit-bag.invert-durability-bar-indication in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.placement.render-mode.success in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.placement.render-mode.failed in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.placement.color.success in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.placement.color.not-fitting in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.placement.color.missing-bits-or-space in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.chiseling-previews.default.colors.chiseling in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.chiseling-previews.default.colors.placement in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.chiseling-previews.renderer in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.chiseling-previews.debug.enabled in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.chiseling-previews.debug.mutator.colors.chiseling in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.chiseling-previews.debug.mutator.colors.placement in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.selected-tool-mode-icons.renderer in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.invert-pick-block-behaviour in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.clipboard.size in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.clipboard.add-broken-blocks in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.clipboard.add-picked-blocks in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.patterns.export-path in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.caches.sizes.bit-storage-content-models in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.lighting.extract-lighting-values-from-faces in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.lighting.extract-lighting-values-from-blockstates in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: gui.radial-menu.display-mouse-indicator in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.caches.sizes.block-models in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.caches.sizes.block-faces in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.caches.sizes.cull-testing in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.model-building.thread-count in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.caches.sizes.stack-models in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.warnings.show-cool-down-error in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: settings.interactions.scrolling-changes-mode in: chiselsandbits-client
-[20:07:31] [main/ERROR]: Could not resolve configuration key: help.enabled-in-tooltips in: chiselsandbits-common
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.caches.sizes.collision-boxes in: chiselsandbits-common
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.caches.sizes.class-metadata in: chiselsandbits-common
-[20:07:31] [main/ERROR]: Could not resolve configuration key: performance.saving.thread-count in: chiselsandbits-common
-[20:07:31] [main/ERROR]: Could not resolve configuration key: balancing.blacklist-random-ticking-blocks in: chiselsandbits-server
-[20:07:31] [main/ERROR]: Could not resolve configuration key: balancing.enable-compatibility-mode in: chiselsandbits-server
-[20:07:31] [main/ERROR]: Could not resolve configuration key: balancing.bit-bag-stack-size in: chiselsandbits-server
-[20:07:31] [main/ERROR]: Could not resolve configuration key: style.bit-size in: chiselsandbits-server
-[20:07:31] [main/ERROR]: Could not resolve configuration key: balancing.change-tracker-size in: chiselsandbits-server
-[20:07:31] [main/ERROR]: Could not resolve configuration key: balancing.delete-excess-bits in: chiselsandbits-server
-[20:07:31] [main/ERROR]: Could not resolve configuration key: balancing.light-factor-multiplier in: chiselsandbits-server
-[20:07:31] [main/INFO]: Loaded block entity configuration.
-[20:07:31] [main/INFO]: Loaded block configuration.
-[20:07:31] [main/INFO]: Loaded chisel mode group configuration.
-[20:07:32] [main/INFO]: Loaded chisel mode configuration.
-[20:07:32] [main/INFO]: Loaded container type configuration.
-[20:07:32] [main/INFO]: Loaded item group configuration.
-[20:07:32] [main/INFO]: Loaded item configuration.
-[20:07:32] [main/INFO]: Loaded metadata key configuration.
-[20:07:32] [main/INFO]: Loaded model property configuration.
-[20:07:32] [main/INFO]: Loaded modification operation configuration.
-[20:07:32] [main/INFO]: Loaded modification operation group configuration.
-[20:07:32] [main/INFO]: Loaded pattern placement type configuration.
-[20:07:32] [main/INFO]: Loaded recipe serializer configuration.
-[20:07:32] [main/INFO]: Loaded tag configuration.
-[20:07:32] [main/INFO]: Registering recipe types.
-[20:07:32] [main/INFO]: Registering event handlers
-[20:07:34] [main/INFO]: Initialized scena-fabric
-[20:07:35] [main/INFO]: Registering Items for simplyskills
-[20:07:35] [main/INFO]: Registering Entities for simplyskills
-[20:07:35] [main/INFO]: [STDOUT]: /workspaces/ts/servidor_minecraft/config
-[20:07:35] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[20:07:35] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[20:07:35] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[20:07:35] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[20:07:35] [main/WARN]: Configuration file ./config/treechop-common.toml is not correct. Correcting
-[20:07:35] [main/WARN]: Incorrect key mod was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key mod.enabled was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key mod.printDebugInfo was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key permissions.choppingEnabled was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key permissions.choppingEnabled.canBeFalse was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.choppingEnabled.canBeTrue was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.fellingEnabled was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key permissions.fellingEnabled.canBeFalse was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.fellingEnabled.canBeTrue was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.sneakBehavior was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key permissions.sneakBehavior.canBeInvertFelling was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.sneakBehavior.canBeNone was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.sneakBehavior.canBeInvertChopping was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.treeMustHaveLeaves was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key permissions.treeMustHaveLeaves.canBeFalse was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.treeMustHaveLeaves.canBeTrue was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.chopInCreativeMode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key permissions.chopInCreativeMode.canBeFalse was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key permissions.chopInCreativeMode.canBeTrue was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key general.dropLootForChoppedBlocks was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.dropLootOnFirstChop was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.maxTreeBlocks was corrected from null to its default, 1024. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.maxLeavesBlocks was corrected from null to its default, 1024. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.breakLeaves was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.ignorePersistentLeaves was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.maxBreakLeavesDistance was corrected from null to its default, 7. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.logs was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.logs.blocks was corrected from null to its default, [#treechop:choppables, #minecraft:logs]. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.logs.exceptions was corrected from null to its default, [minecraft:bamboo, #dynamictrees:branches, dynamictrees:trunk_shell]. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.leaves was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.leaves.blocks was corrected from null to its default, [#treechop:leaves_like, #minecraft:leaves, pamhc2trees:pam[a-z]+]. 
-[20:07:35] [main/WARN]: Incorrect key treeDetection.leaves.exceptions was corrected from null to its default, []. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting.algorithm was corrected from null to its default, LOGARITHMIC. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting.rounding was corrected from null to its default, NEAREST. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting.canRequireMoreChopsThanBlocks was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting.logarithmic was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting.logarithmic.a was corrected from null to its default, 10.0. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting.linear was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting.linear.chopsPerBlock was corrected from null to its default, 1.0. 
-[20:07:35] [main/WARN]: Incorrect key chopCounting.linear.baseNumChops was corrected from null to its default, 0.0. 
-[20:07:35] [main/WARN]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.choppingRequiresCorrectToolForDrops was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.choppingRequiresFastBreakingTool was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.preventChoppingOnRightClick was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.preventChopRecursion was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.blacklist was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.blacklist.blacklistOrWhitelist was corrected from null to its default, BLACKLIST. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.blacklist.items was corrected from null to its default, [botania:terra_axe, @lumberjack, mekanism:atomic_disassembler, practicaltools:diamond_greataxe, practicaltools:golden_greataxe, practicaltools:iron_greataxe, practicaltools:netherite_greataxe, twilightforest:giant_pickaxe]. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.fakePlayerChopSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.fakePlayerChopSettings.choppingEnabled was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.fakePlayerChopSettings.fellingEnabled was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.general.fakePlayerChopSettings.treesMustHaveLeaves was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.hugeMushrooms was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.hugeMushrooms.logs was corrected from null to its default, [#c:mushroom_stems]. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.hugeMushrooms.leaves was corrected from null to its default, [#c:mushroom_caps]. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.hugeFungi was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.hugeFungi.logs was corrected from null to its default, [#minecraft:crimson_stems, #minecraft:warped_stems]. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.hugeFungi.leaves was corrected from null to its default, [#minecraft:wart_blocks, minecraft:shroomlight]. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.problematicLeavesTrees was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.problematicLeavesTrees.logs was corrected from null to its default, [tropicraft:.*_log(_.*)?, mysticbiomes:.*_log, betternether:.*_bark, betternether:.*_log, alexscaves:.*_log, alexscaves:pewen_wood]. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.trees.problematicLeavesTrees.leaves was corrected from null to its default, [tropicraft:.*_leaves(_.*)?, betternether:.*_leaves, regions_unexplored:brimwood_leaves, alexscaves:.*_branch, alexscaves:pewen_pines]. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.API was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key compatibility.API.verbose was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Configuration file ./config/treechop-client.toml is not correct. Correcting
-[20:07:35] [main/WARN]: Incorrect key chopping was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key chopping.choppingEnabled was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key chopping.fellingEnabled was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key chopping.sneakBehavior was corrected from null to its default, INVERT_CHOPPING. 
-[20:07:35] [main/WARN]: Incorrect key chopping.treesMustHaveLeaves was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key chopping.chopInCreativeMode was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Incorrect key visuals was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key visuals.removeBarkOnInteriorLogs was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key visuals.choppingIndicator was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key visuals.choppingIndicator.enabled was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key visuals.choppingIndicator.xOffset was corrected from null to its default, 16. 
-[20:07:35] [main/WARN]: Incorrect key visuals.choppingIndicator.yOffset was corrected from null to its default, 0. 
-[20:07:35] [main/WARN]: Incorrect key settingsScreen was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key settingsScreen.showFellingOptions was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Incorrect key settingsScreen.showFeedbackMessages was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key settingsScreen.showTooltips was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Configuration file ./config/watut-common.toml is not correct. Correcting
-[20:07:35] [main/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key general.announceIdleStatesInChat was corrected from null to its default, false. 
-[20:07:35] [main/WARN]: Incorrect key general.ticksToMarkPlayerIdle was corrected from null to its default, 6000. 
-[20:07:35] [main/WARN]: Configuration file ./config/watut-client.toml is not correct. Correcting
-[20:07:35] [main/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:35] [main/WARN]: Incorrect key general.sendMouseInfo was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.sendTypingSpeed was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.sendActiveGui was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.sendIdleState was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showIdleStatesInPlayerList was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showIdleStatesInPlayerAboveHead was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showPlayerAnimations was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showPlayerAnimation_Typing was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showPlayerAnimation_Idle was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showPlayerAnimation_Gui was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showPlayerActiveNonChatGui was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showPlayerActiveChatGui was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.showPlayerActiveGuiIfNotExactMatch was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.screenTypingVisible was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.screenTypingRelativePosition_X was corrected from null to its default, 0. 
-[20:07:35] [main/WARN]: Incorrect key general.screenTypingRelativePosition_Y was corrected from null to its default, 0. 
-[20:07:35] [main/WARN]: Incorrect key general.screenTypingCharacterLimit was corrected from null to its default, 50. 
-[20:07:35] [main/WARN]: Incorrect key general.screenTypingMultiplePlayersText was corrected from null to its default, Several people are typing. 
-[20:07:35] [main/WARN]: Incorrect key general.screenTypingText was corrected from null to its default,  is typing. 
-[20:07:35] [main/WARN]: Incorrect key general.playScreenOpenSounds was corrected from null to its default, true. 
-[20:07:35] [main/WARN]: Incorrect key general.playMouseClickSounds was corrected from null to its default, true. 
-[20:07:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:07:35] [main/INFO]: Bypassed Mojang DFU
-[20:07:36] [main/INFO]: Adding serverside commands..
-[20:07:37] [Worker-Main-2/ERROR]: Couldn't load tag create_more_additions:repair_electrum as it is missing following references: createaddition:electrum_ingot (from fabric)
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/fence
+[21:03:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ts/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:03:48] [main/INFO]: Compatibility level set to JAVA_17
+[21:03:48] [main/WARN]: Reference map 'chisels-and-bits-fabric-refmap.json' for chiselsandbits.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:03:48] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:03:48] [main/WARN]: Reference map 'Modern-Dynamics-refmap.json' for moderndynamics.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:03:48] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 63 options available, 0 override(s) found
+[21:03:48] [main/INFO]: Applying Nashorn fix
+[21:03:48] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:03:48] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[21:03:48] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[21:03:48] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[21:03:48] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[21:03:49] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[21:03:49] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[21:03:49] [main/WARN]: Error loading class: io/wispforest/accessories/impl/AccessoriesEventHandler (java.lang.ClassNotFoundException: io/wispforest/accessories/impl/AccessoriesEventHandler)
+[21:03:49] [main/WARN]: @Mixin target io.wispforest.accessories.impl.AccessoriesEventHandler was not found travelersbackpack.mixins.json:AccessoriesEventHandlerMixin from mod travelersbackpack
+[21:03:49] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[21:03:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:03:54] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[21:03:54] [main/INFO]: Vanilla bootstrap took 4428 milliseconds
+[21:03:54] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[21:03:54] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[21:03:54] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[21:03:54] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[21:03:54] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[21:03:54] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[21:03:54] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[21:03:54] [main/INFO]: Common init
+[21:03:54] [main/INFO]: Initialized chisels-and-bits for Fabric
+[21:03:54] [main/INFO]: fabric loader environment detected
+[21:03:57] [main/INFO]: Initializing CreateMoreAdditionsMod
+[21:03:57] [main/INFO]: Initializing ServerSide Packet Registries
+[21:03:57] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[21:03:57] [main/INFO]: [KONKRETE] Successfully initialized!
+[21:03:57] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[21:03:57] [main/INFO]: Successfully loaded Modern Dynamics!
+[21:03:57] [main/INFO]: Initialized Saecularia-Caudices
+[21:03:58] [main/INFO]: Loaded block entity configuration.
+[21:03:58] [main/INFO]: Loaded block configuration.
+[21:03:58] [main/INFO]: Loaded chisel mode group configuration.
+[21:03:58] [main/INFO]: Loaded chisel mode configuration.
+[21:03:58] [main/INFO]: Loaded container type configuration.
+[21:03:58] [main/INFO]: Loaded item group configuration.
+[21:03:58] [main/INFO]: Loaded item configuration.
+[21:03:58] [main/INFO]: Loaded metadata key configuration.
+[21:03:58] [main/INFO]: Loaded model property configuration.
+[21:03:58] [main/INFO]: Loaded modification operation configuration.
+[21:03:58] [main/INFO]: Loaded modification operation group configuration.
+[21:03:58] [main/INFO]: Loaded pattern placement type configuration.
+[21:03:58] [main/INFO]: Loaded recipe serializer configuration.
+[21:03:58] [main/INFO]: Loaded tag configuration.
+[21:03:58] [main/INFO]: Registering recipe types.
+[21:03:58] [main/INFO]: Registering event handlers
+[21:04:00] [main/INFO]: Initialized scena-fabric
+[21:04:00] [main/INFO]: Registering Items for simplyskills
+[21:04:00] [main/INFO]: Registering Entities for simplyskills
+[21:04:01] [main/INFO]: [STDOUT]: /workspaces/ts/servidor_minecraft/config
+[21:04:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[21:04:01] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[21:04:01] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[21:04:01] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[21:04:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:04:01] [main/INFO]: Bypassed Mojang DFU
+[21:04:02] [main/WARN]: Adding spell_power:fire to saved/remote registry.
+[21:04:02] [main/WARN]: Adding spell_power:frost to saved/remote registry.
+[21:04:02] [main/WARN]: Adding spell_power:arcane to saved/remote registry.
+[21:04:02] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[21:04:03] [main/INFO]: Adding serverside commands..
+[21:04:03] [Worker-Main-1/ERROR]: Couldn't load tag create_more_additions:repair_electrum as it is missing following references: createaddition:electrum_ingot (from fabric)
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/fence
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -490,7 +291,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/trapdoor
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/trapdoor
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -515,7 +316,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/fence_gate
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/fence_gate
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -540,7 +341,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_boots
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_boots
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -565,7 +366,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/pressure_plate
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/pressure_plate
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -590,7 +391,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_leggings
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_leggings
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -615,7 +416,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_helmet
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_helmet
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -640,7 +441,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_axe
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_axe
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -665,7 +466,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/door
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/door
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -690,7 +491,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/block
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/block
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -715,7 +516,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/stairs
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/stairs
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -740,7 +541,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/slab
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/slab
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -765,7 +566,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_sword
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_sword
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -790,7 +591,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/button
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/button
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -815,7 +616,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_hoe
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_hoe
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -840,7 +641,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_shovel
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_shovel
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -865,7 +666,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/wall
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/building/wall
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -890,7 +691,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_pickaxe
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_pickaxe
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -915,7 +716,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_chestplate
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_chestplate
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -940,7 +741,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:silver/crafting_ingot_from_block
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:silver/crafting_ingot_from_block
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:crafbronzeg_shapeless'
 	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -959,7 +760,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecra
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_jewel
+[21:04:05] [main/ERROR]: Parsing error loading recipe create_more_additions:electrum/electrum_jewel
 com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -985,279 +786,61 @@ com.google.gson.JsonSyntaxException: Unknown item 'createaddition:electrum_ingot
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[20:07:39] [main/INFO]: Loaded 24 recipes
-[20:07:39] [main/ERROR]: Parsing error loading custom advancement rpg_series:rune_crafter: Expected item to be an item, was unknown string 'runes:crafting_altar'
-[20:07:39] [main/INFO]: Loaded 2542 advancements
-[20:07:39] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_pools
-[20:07:39] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_decrees
-[20:07:39] [main/INFO]: Reloading grave shape (server)
-[20:07:39] [main/INFO]: Grave model and shape reload successful (server)
-[20:07:39] [main/INFO]: Reloading YIGD graveyard data (server)
-[20:07:39] [main/INFO]: Graveyard data successfully reloaded (server)
-[20:07:39] [main/INFO]: Reloading YIGD grave area overrides (server)
-[20:07:39] [main/INFO]: Grave area overrides successfully reloaded (server)
-[20:07:39] [main/INFO]: Applied 217 biome modifications to 58 of 64 new biomes in 15.80 ms
-[20:07:39] [Server thread/WARN]: Configuration file ./config/create-server.toml is not correct. Correcting
-[20:07:39] [Server thread/WARN]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.bulkPressing was corrected from null to its default, false. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.bulkCutting was corrected from null to its default, false. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.allowFillingBySpout was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.disableStress was corrected from null to its default, false. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanProcessingTime was corrected from null to its default, 150. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.rollerFillDepth was corrected from null to its default, 12. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.contraptionPlacing was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.minecartContraptionInContainers was corrected from null to its default, false. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.contraptions.stabiliseStableContraptions was corrected from null to its default, false. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stats.mediumSpeed was corrected from null to its default, 30.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stats.fastSpeed was corrected from null to its default, 100.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stats.mediumStressImpact was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stats.highStressImpact was corrected from null to its default, 8.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stats.mediumCapacity was corrected from null to its default, 256.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stats.highCapacity was corrected from null to its default, 1024.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.netherite_backtank was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.elevator_pulley was corrected from null to its default, 4.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.large_water_wheel was corrected from null to its default, 128.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 32.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.fillInfinite was corrected from null to its default, false. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.fluidFillPlaceFluidSourceBlocks was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key fluids.pipesPlaceFluidSourceBlocks was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics.psiTimeout was corrected from null to its default, 60. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics.linkRange was corrected from null to its default, 256. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics.brassTunnelTimer was corrected from null to its default, 10. 
-[20:07:39] [Server thread/WARN]: Incorrect key logistics.seatHostileMobs was corrected from null to its default, true. 
-[20:07:39] [Server thread/WARN]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:39] [Server thread/WARN]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false. 
-[20:07:39] [Server thread/WARN]: Incorrect key schematics.maxSchematics was corrected from null to its default, 10. 
-[20:07:39] [Server thread/WARN]: Incorrect key schematics.maxTotalSchematicSize was corrected from null to its default, 256. 
-[20:07:40] [Server thread/WARN]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024. 
-[20:07:40] [Server thread/WARN]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600. 
-[20:07:40] [Server thread/WARN]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:40] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10. 
-[20:07:40] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonShotsPerGunpowder was corrected from null to its default, 400. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment.maxSymmetryWandRange was corrected from null to its default, 50. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment.placementAssistRange was corrected from null to its default, 12. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment.toolboxRange was corrected from null to its default, 10. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment.airInBacktank was corrected from null to its default, 900. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment.enchantedBacktankCapacity was corrected from null to its default, 300. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment.maxExtendoGripActions was corrected from null to its default, 1000. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment.maxPotatoCannonShots was corrected from null to its default, 200. 
-[20:07:40] [Server thread/WARN]: Incorrect key equipment.potatoCannonWorldModification was corrected from null to its default, true. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0. 
-[20:07:40] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0. 
-[20:07:40] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: plains
-[20:07:40] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
-[20:07:40] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
-[20:07:40] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
-[20:07:40] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: desert
-[20:07:40] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
-[20:07:40] [Server thread/WARN]: [puffish_skills] Data pack `simplyskills` loaded successfully with warning(s):
+[21:04:05] [main/INFO]: Loaded 24 recipes
+[21:04:05] [main/ERROR]: Parsing error loading custom advancement rpg_series:rune_crafter: Expected item to be an item, was unknown string 'runes:crafting_altar'
+[21:04:05] [main/INFO]: Loaded 2542 advancements
+[21:04:05] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_pools
+[21:04:05] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_decrees
+[21:04:05] [main/INFO]: Reloading grave shape (server)
+[21:04:05] [main/INFO]: Grave model and shape reload successful (server)
+[21:04:05] [main/INFO]: Reloading YIGD graveyard data (server)
+[21:04:05] [main/INFO]: Graveyard data successfully reloaded (server)
+[21:04:05] [main/INFO]: Reloading YIGD grave area overrides (server)
+[21:04:05] [main/INFO]: Grave area overrides successfully reloaded (server)
+[21:04:06] [main/INFO]: Applied 217 biome modifications to 58 of 64 new biomes in 14.53 ms
+[21:04:06] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[21:04:06] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[21:04:06] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[21:04:06] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[21:04:06] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[21:04:06] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[21:04:06] [Server thread/WARN]: [puffish_skills] Data pack `simplyskills` loaded successfully with warning(s):
 Data pack `simplyskills` uses outdated version. Please update the configuration version to 3 at `version` at `simplyskills:puffish_skills/config.json`
-[20:07:40] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 200275 bytes (in 21 string chunks with the size of 10000)
-[20:07:40] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[20:07:40] [Server thread/INFO]: Loading properties
-[20:07:40] [Server thread/INFO]: Default game type: SURVIVAL
-[20:07:40] [Server thread/INFO]: Generating keypair
-[20:07:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:07:40] [Server thread/INFO]: Using epoll channel type
-[20:07:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:07:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:07:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:07:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:07:40] [Server thread/INFO]: Preparing level "world"
-[20:07:44] [Worker-Main-2/INFO]: Instantiating Mojang DFU
-[20:07:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:07:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:07:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:07:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:07:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:07:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:07:53] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:07:53] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[20:07:54] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[20:07:55] [Worker-Main-2/INFO]: Preparing spawn area: 3%
-[20:07:55] [Worker-Main-2/INFO]: Preparing spawn area: 3%
-[20:07:55] [Worker-Main-3/INFO]: Preparing spawn area: 4%
-[20:07:56] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[20:07:56] [Worker-Main-3/INFO]: Preparing spawn area: 7%
-[20:07:57] [Worker-Main-2/INFO]: Preparing spawn area: 9%
-[20:07:57] [Worker-Main-3/INFO]: Preparing spawn area: 10%
-[20:07:58] [Worker-Main-3/INFO]: Preparing spawn area: 12%
-[20:07:58] [Worker-Main-2/INFO]: Preparing spawn area: 14%
-[20:07:59] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[20:07:59] [Worker-Main-3/INFO]: Preparing spawn area: 17%
-[20:08:00] [Worker-Main-3/INFO]: Preparing spawn area: 20%
-[20:08:00] [Worker-Main-3/INFO]: Preparing spawn area: 22%
-[20:08:01] [Worker-Main-1/INFO]: Preparing spawn area: 23%
-[20:08:01] [Worker-Main-1/INFO]: Preparing spawn area: 24%
-[20:08:02] [Worker-Main-3/INFO]: Preparing spawn area: 27%
-[20:08:02] [Worker-Main-3/INFO]: Preparing spawn area: 30%
-[20:08:03] [Worker-Main-1/INFO]: Preparing spawn area: 32%
-[20:08:03] [Worker-Main-1/INFO]: Preparing spawn area: 32%
-[20:08:04] [Worker-Main-3/INFO]: Preparing spawn area: 35%
-[20:08:04] [Worker-Main-3/INFO]: Preparing spawn area: 38%
-[20:08:05] [Worker-Main-3/INFO]: Preparing spawn area: 41%
-[20:08:05] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[20:08:06] [Worker-Main-3/INFO]: Preparing spawn area: 44%
-[20:08:06] [Worker-Main-1/INFO]: Preparing spawn area: 47%
-[20:08:07] [Worker-Main-2/INFO]: Preparing spawn area: 50%
-[20:08:07] [Worker-Main-1/INFO]: Preparing spawn area: 52%
-[20:08:08] [Worker-Main-2/INFO]: Preparing spawn area: 54%
-[20:08:08] [Worker-Main-3/INFO]: Preparing spawn area: 57%
-[20:08:09] [Worker-Main-1/INFO]: Preparing spawn area: 59%
-[20:08:09] [Worker-Main-2/INFO]: Preparing spawn area: 62%
-[20:08:10] [Worker-Main-2/INFO]: Preparing spawn area: 64%
-[20:08:10] [Worker-Main-3/INFO]: Preparing spawn area: 68%
-[20:08:11] [Worker-Main-1/INFO]: Preparing spawn area: 70%
-[20:08:11] [Worker-Main-3/INFO]: Preparing spawn area: 73%
-[20:08:12] [Worker-Main-2/INFO]: Preparing spawn area: 76%
-[20:08:12] [Worker-Main-2/INFO]: Preparing spawn area: 79%
-[20:08:13] [Worker-Main-1/INFO]: Preparing spawn area: 82%
-[20:08:13] [Worker-Main-2/INFO]: Preparing spawn area: 85%
-[20:08:14] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[20:08:14] [Worker-Main-3/INFO]: Preparing spawn area: 92%
-[20:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 95%
-[20:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 99%
-[20:08:15] [Server thread/INFO]: Time elapsed: 25040 ms
-[20:08:15] [Server thread/INFO]: Done (35.172s)! For help, type "help"
-[20:08:15] [Server thread/WARN]: Dedicated server took 56.086 seconds to load
-[20:08:16] [Server thread/INFO]: Start loading plugin from Beautify
-[20:08:16] [Server thread/INFO]: Start loading plugin from Jade
-[20:08:16] [Server thread/INFO]: Start loading plugin from Jade
-[20:08:16] [Server thread/INFO]: Start loading plugin from Jade
-[20:08:16] [Server thread/INFO]: Start loading plugin from HT's TreeChop
-[20:08:16] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.global.config
-[20:08:16] [Server thread/INFO]: global (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.global.config
-[20:08:16] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "5.10.3": journeymap.server.default.config
-[20:08:16] [Server thread/INFO]: default (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.default.config
-[20:08:16] [Server thread/INFO]: minecraft~overworld (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~overworld.config
-[20:08:16] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~overworld.config
-[20:08:16] [Server thread/INFO]: minecraft~the_end (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_end.config
-[20:08:16] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_end.config
-[20:08:16] [Server thread/INFO]: minecraft~the_nether (Initialized) Setting config file to version "5.10.3": journeymap.server.minecraft~the_nether.config
-[20:08:16] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/5.10/journeymap.server.minecraft~the_nether.config
-[20:08:16] [Server thread/INFO]: Reading config file...
-[20:08:16] [Server thread/WARN]: The following mission types are available but ignored due to having a weight of 0 or being absent in the config file: [cut, mill, minecart]
+[21:04:06] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): 200275 bytes (in 21 string chunks with the size of 10000)
+[21:04:06] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:04:06] [Server thread/INFO]: Loading properties
+[21:04:06] [Server thread/INFO]: Default game type: SURVIVAL
+[21:04:06] [Server thread/INFO]: Generating keypair
+[21:04:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:04:06] [Server thread/INFO]: Using epoll channel type
+[21:04:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:04:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:04:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:04:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:04:06] [Server thread/INFO]: Preparing level "world"
+[21:04:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:04:09] [Server thread/INFO]: Preparing spawn area: 0%
+[21:04:09] [Server thread/INFO]: Preparing spawn area: 0%
+[21:04:09] [Server thread/INFO]: Preparing spawn area: 0%
+[21:04:09] [Server thread/INFO]: Preparing spawn area: 0%
+[21:04:09] [Server thread/INFO]: Preparing spawn area: 0%
+[21:04:10] [Server thread/INFO]: Time elapsed: 2650 ms
+[21:04:10] [Server thread/INFO]: Done (3.084s)! For help, type "help"
+[21:04:10] [Server thread/WARN]: Dedicated server took 23.333 seconds to load
+[21:04:10] [Server thread/INFO]: Start loading plugin from Beautify
+[21:04:10] [Server thread/INFO]: Start loading plugin from Jade
+[21:04:10] [Server thread/INFO]: Start loading plugin from Jade
+[21:04:10] [Server thread/INFO]: Start loading plugin from Jade
+[21:04:10] [Server thread/INFO]: Start loading plugin from HT's TreeChop
+[21:04:10] [Server thread/INFO]: Reading config file...
+[21:04:10] [Server thread/WARN]: The following mission types are available but ignored due to having a weight of 0 or being absent in the config file: [cut, mill, minecart]
+[21:04:22] [Server thread/INFO]: Yumalala[/[0:0:0:0:0:0:0:1%0]:57658] logged in with entity id 130 at (1.5, 77.0, 1.5)
+[21:04:22] [Server thread/INFO]: Syncing config to Yumalala (e5e1aa61-0148-3718-ade2-317eefd7bf71)
+[21:04:22] [Server thread/INFO]: Loading config from file...
+[21:04:22] [Server thread/INFO]: Yumalala joined the game
+[21:04:24] [Netty Epoll Server IO #2/INFO]: Priority overwritten for player Yumalala. Claiming: GRAVE / Robbing: INVENTORY
+[21:04:31] [Server thread/INFO]: Made Yumalala a server operator
+[21:06:09] [Server thread/INFO]: [Yumalala: Set own game mode to Creative Mode]
+[21:09:56] [Server thread/INFO]: Yumalala has made the advancement [Diamonds!]
+[21:12:04] [Server thread/INFO]: [Yumalala: Set own game mode to Survival Mode]
+[21:12:26] [Server thread/INFO]: [Yumalala: Set own game mode to Creative Mode]

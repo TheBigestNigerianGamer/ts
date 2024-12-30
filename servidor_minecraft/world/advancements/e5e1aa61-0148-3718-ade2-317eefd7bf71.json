@@ -1,0 +1,45 @@
+{
+  "rpg_series:root": {
+    "criteria": {
+      "always": "2024-12-30 21:04:22 +0000"
+    },
+    "done": true
+  },
+  "fishtimer:entry": {
+    "criteria": {
+      "source": "2024-12-30 21:04:22 +0000"
+    },
+    "done": true
+  },
+  "nbsp_main:source": {
+    "criteria": {
+      "source": "2024-12-30 21:04:22 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-12-30 21:05:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-30 21:04:22 +0000"
+    },
+    "done": true
+  },
+  "beautify:progression/root": {
+    "criteria": {
+      "Install": "2024-12-30 21:04:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-12-30 21:04:23 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
