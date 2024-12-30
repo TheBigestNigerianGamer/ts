@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2024-12-30 21:40:59 +0000"
+    },
+    "done": true
+  },
   "fishtimer:entry": {
     "criteria": {
       "source": "2024-12-30 21:04:22 +0000"
@@ -278,6 +284,12 @@
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2024-12-30 21:09:56 +0000"
+    },
+    "done": true
+  },
+  "create:diving_suit_lava": {
+    "criteria": {
+      "0": "2024-12-30 21:39:14 +0000"
     },
     "done": true
   },
